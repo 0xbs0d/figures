@@ -39,13 +39,13 @@ try:
     from lms.djangoapps.courseware.models import StudentModule  # noqa pylint: disable=unused-import,import-error
 except ImportError:
     # Backward compatibily for pre-Juniper releases
-    from courseware.models import StudentModule  # noqa pylint: disable=unused-import,import-error
+    from lms.djangoapps.courseware.models import StudentModule  # noqa pylint: disable=unused-import,import-error
 
 try:
     from lms.djangoapps.courseware.courses import get_course_by_id  # noqa pylint: disable=unused-import,import-error
 except ImportError:
     # Backward compatibily for pre-Juniper releases
-    from courseware.courses import get_course_by_id  # noqa pylint: disable=unused-import,import-error
+    from lms.djangoapps.courseware.courses import get_course_by_id  # noqa pylint: disable=unused-import,import-error
 
 try:
     from opaque_keys.edx.django.models import CourseKeyField  # noqa pylint: disable=unused-import,import-error

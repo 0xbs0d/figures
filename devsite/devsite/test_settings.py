@@ -80,7 +80,7 @@ elif OPENEDX_RELEASE == 'HAWTHORN':
     INSTALLED_APPS.append('courseware')
 elif OPENEDX_RELEASE == 'IRONWOOD':
     INSTALLED_APPS.append('lms.djangoapps.certificates')
-    INSTALLED_APPS.append('courseware')
+    INSTALLED_APPS.append('lms.djangoapps.courseware')
 else:
     INSTALLED_APPS.append('lms.djangoapps.certificates')
     INSTALLED_APPS.append('lms.djangoapps.courseware')
