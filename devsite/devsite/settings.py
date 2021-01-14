@@ -21,7 +21,7 @@ env = environ.Env(
     FIGURES_IS_MULTISITE=(bool, False),
     SEED_DAYS_BACK=(int, 60),
     SEED_NUM_LEARNERS_PER_COURSE=(int, 25),
-    OPENEDX_RELEASE=(str, 'HAWTHORN'),
+    OPENEDX_RELEASE=(str, 'IRONWOOD'),
     ENABLE_DEVSITE_CELERY=(bool, True)
 )
 

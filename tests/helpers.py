@@ -12,10 +12,11 @@ from organizations.models import Organization
 # Ginkgo is the earliest supported platform
 GINKGO = 'GINKGO'
 HAWTHORN = 'HAWTHORN'
+IRONWOOD = 'IRONWOOD'
 
 
 def platform_release():
-    return os.environ.get('OPENEDX_RELEASE', HAWTHORN)
+    return os.environ.get('OPENEDX_RELEASE', IRONWOOD)
 
 
 OPENEDX_RELEASE = platform_release()

@@ -2,5 +2,5 @@
 Identify the release of Open edX platform
 """
 
-RELEASE_LINE = 'hawthorn'
+RELEASE_LINE = 'ironwood'
 
